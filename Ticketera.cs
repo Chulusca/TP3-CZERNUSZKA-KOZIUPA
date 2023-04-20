@@ -63,7 +63,7 @@ public static class Ticketera{
         estadisticas.Add($"La recaudacion del dia 1 es de: {recaudacionCadaDia[0]} \n" + 
         $"La recaudacion del dia 2 es de: {recaudacionCadaDia[1]} \n" + 
         $"La recaudacion del dia 3 es de: {recaudacionCadaDia[2]} \n" + 
-        $"La recaudacion del dia 4 es de: {recaudacionCadaDia[3]} \n");
+        $"La recaudacion del full access es de: {recaudacionCadaDia[3]} \n");
         estadisticas.Add($"La recaudacion total fue de: {recaudacionTotal}");
         return estadisticas;
     }
