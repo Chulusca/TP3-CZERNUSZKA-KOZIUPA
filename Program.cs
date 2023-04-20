@@ -58,7 +58,7 @@ void ImprimirEstadisticas(){
 void MostrarCliente(int id){
     Cliente cliente = Ticketera.BuscarCliente(id);
     if (cliente != null){
-        Console.WriteLine($"DNI: {cliente.DNI}" + $"Nombre: {cliente.Nombre}" + $"Apellido: {cliente.Nombre}");
+        Console.WriteLine($"DNI: {cliente.DNI}" + $" Nombre: {cliente.Nombre}" + $" Apellido: {cliente.Nombre}");
     }
 }
 void PudoCambiarEntrada(){
