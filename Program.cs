@@ -60,7 +60,6 @@ void MostrarCliente(int id){
     if (cliente != null){
         Console.WriteLine($"DNI: {cliente.DNI}" + $"Nombre: {cliente.Nombre}" + $"Apellido: {cliente.Nombre}");
     }
-    else Console.WriteLine("El cliente no existe");
 }
 void PudoCambiarEntrada(){
     int idEntrada = Funciones.IngresarEntero("Ingrese su id de entrada");
